@@ -1,2 +1,2 @@
-# goit-markup-hw-05
-https://alexandrberezovets.github.io/goit-markup-hw-05
+# homework1
+goit.html.homework1
