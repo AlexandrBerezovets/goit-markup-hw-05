@@ -285,6 +285,24 @@ img {
     justify-content: center;
 }
 
+.work-box {
+    position: relative;}
+
+.work-text {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    height: 70px;
+    font-weight: 700;
+    line-height: 1.14;
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--white-color);}
+
 .work-list .item:not(:last-child) {
     margin-right: 30px;
 }
@@ -685,22 +703,22 @@ img {
 }
 
 .modal-close {
-    width: 30px;
-    height: 30px;
-    background-color: var(--white-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
     position: absolute;
-    top: 8px;
-    right: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+    top: 8px;
+    right: 8px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
-.modal-close:hover, .modal-close:focus {
-    background-color: var(--accent-color);
+.modal-close:hover {
+    fill: #188CE8;
 }
 
 .is-hidden {
